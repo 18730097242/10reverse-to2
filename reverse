@@ -1,0 +1,14 @@
+public class test {
+			public static void main(String[] args) {		
+			Integer i = 20;
+			String str = "";
+			StringBuffer sb = new StringBuffer();		
+			while(i!=0){
+				str += i%2;
+				i = i/2;
+			}
+			sb.append(str);
+			System.out.println(sb.reverse());
+			System.out.println(str);
+		}
+}
